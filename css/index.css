@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+#q{
+    position: absolute;
+    z-index: -1;
+    /* animation: changeStatus 10s ease forwards; */
+}
+
+@keyframes changeStatus{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
