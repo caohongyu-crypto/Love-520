@@ -8,7 +8,7 @@ const p = Array(Math.floor(w / 10) + 1).fill(0);
 const random = (items) => items[Math.floor(Math.random() * items.length)];
 
 // const hex = "0123456789ABCDEF".split("");
-const hex = "2020520 孙雪蝶❥".split("");
+const hex = "2020520 你的名字❥".split("");
 
 setInterval(() => {
   ctx.fillStyle = "rgba(0,0,0,.05)";
